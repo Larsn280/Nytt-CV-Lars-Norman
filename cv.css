@@ -9,9 +9,9 @@ body {
 }
 
 .main {
-  width: 750px;
+  width: 700px;
   padding: 40px;
-  background: linear-gradient(to right, wheat 30%, white 30%);
+  background: linear-gradient(to right, rgb(192, 166, 96) 30%, white 30%);
 }
 
 .verticalSpacer {
@@ -48,9 +48,17 @@ body {
   flex-direction: row;
 }
 
-.development .profileImage {
+.development .imageDiv {
   width: 30%;
+  height: 225px;
+  overflow: hidden;
   border-radius: 50%;
+}
+
+.development .profileImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .development .horizontalSpacer {
