@@ -9,6 +9,7 @@ body {
 }
 
 .main {
+  width: 750px;
   padding: 40px;
   background: linear-gradient(to right, wheat 30%, white 30%);
 }
@@ -20,6 +21,12 @@ body {
 .row {
   display: flex;
   flex-direction: row;
+}
+
+.bottomline {
+  height: 4px;
+  background-color: black;
+  border-radius: 19%;
 }
 
 /* 1.----------------------------------------------------------------------- */
@@ -57,6 +64,13 @@ body {
 .development .text h2 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
+}
+
+.development .line {
+  width: 10%;
+  height: 4px;
+  border-radius: 30%;
+  background-color: black;
 }
 
 .development .text b {
@@ -140,27 +154,19 @@ body {
   width: 60%;
 }
 
-/* 5.----------------------------------------------------------------------- */
-.languages {
-  width: 20%;
+.expertiseandexperience .expertise .language {
   display: flex;
   flex-direction: column;
+  width: 40%;
 }
 
-.languages .language {
-  display: flex;
-  flex-direction: column;
-  width: 50%;
-}
-
-.languages .level {
+.expertiseandexperience .expertise .level {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  width: 50%;
+  width: 35%;
 }
 
-.languages b {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 10px;
+.expertiseandexperience .expertise .filler {
+  width: 25%;
 }
